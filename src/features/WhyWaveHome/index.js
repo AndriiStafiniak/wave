@@ -44,48 +44,48 @@ export const WhyWaveHome = () => {
       <MainSection />
       <Skills>
         <SpecialContent>
-          <TitleSpecial>Software developer</TitleSpecial>
           <Icon />
+          <TitleSpecial>Software developer</TitleSpecial>
           At our core, we believe that success is built on strong partnerships.
           That's why we keep communication channels open with our clients every
           step of the way – from conception to deployment. The result? The best
           possible solutions for your users.
         </SpecialContent>
         <SpecialContent>
-          <TitleSpecial>Software developer</TitleSpecial>
           <Icon />
+          <TitleSpecial>Software developer</TitleSpecial>
           At our core, we believe that success is built on strong partnerships.
           That's why we keep communication channels open with our clients every
           step of the way – from conception to deployment. The result? The best
           possible solutions for your users.
         </SpecialContent>
         <SpecialContent>
-          <TitleSpecial>Software developer</TitleSpecial>
           <Icon />
+          <TitleSpecial>Software developer</TitleSpecial>
           At our core, we believe that success is built on strong partnerships.
           That's why we keep communication channels open with our clients every
           step of the way – from conception to deployment. The result? The best
           possible solutions for your users.
         </SpecialContent>
         <SpecialContent>
-          <TitleSpecial>Software developer</TitleSpecial>
           <Icon />
+          <TitleSpecial>Software developer</TitleSpecial>
           At our core, we believe that success is built on strong partnerships.
           That's why we keep communication channels open with our clients every
           step of the way – from conception to deployment. The result? The best
           possible solutions for your users.
         </SpecialContent>
         <SpecialContent>
-          <TitleSpecial>Software developer</TitleSpecial>
           <Icon />
+          <TitleSpecial>Software developer</TitleSpecial>
           At our core, we believe that success is built on strong partnerships.
           That's why we keep communication channels open with our clients every
           step of the way – from conception to deployment. The result? The best
           possible solutions for your users.
         </SpecialContent>
         <SpecialContent>
-          <TitleSpecial>Software developer</TitleSpecial>
           <Icon />
+          <TitleSpecial>Software developer</TitleSpecial>
           At our core, we believe that success is built on strong partnerships.
           That's why we keep communication channels open with our clients every
           step of the way – from conception to deployment. The result? The best

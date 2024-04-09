@@ -96,19 +96,35 @@ export const SecondSection = styled.section`
   height: 80vh;
 `;
 export const TitleSpecial = styled.h3`
-  font-size: 48px;
+  color: #212121;
+
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127%;
+  letter-spacing: -1px;
 `;
 export const SpecialContent = styled.div`
   display: flex;
   flex-direction: column;
+  color: #374168;
+  text-align: center;
   justify-content: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162%;
   align-items: center;
-  max-width: 400px;
 `;
 
 export const Skills = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  margin-bottom: 50px;
 `;
 export const ButtonsContainer = styled.div`
   display: flex;
