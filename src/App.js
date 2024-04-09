@@ -36,7 +36,7 @@ function App() {
         <Route path={toOutSours()} element={<OutSours />} />
         <Route path={toSoft()} element={<SoftWare />} />
         <Route path={toTeam()} element={<TeamIt />} />
-        <Route path="/" element={<Navigate to={toWhyWaveHome} />} />
+        <Route path="/" element={<Navigate to={toWhyWaveHome()} />} />
       </Routes>
       <Footer />
     </HashRouter>
