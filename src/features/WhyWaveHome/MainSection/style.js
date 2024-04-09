@@ -2,9 +2,10 @@ import { styled } from "styled-components";
 
 export const Container = styled.div`
   max-width: 1920px;
+  padding-top: 176px;
   margin: 0 auto;
   display: flex;
-  min-height: 600px;
+  min-height: 555px;
   justify-content: space-around;
 `;
 export const ContainerImg = styled.div`

@@ -123,7 +123,10 @@ export const SpecialContent = styled.div`
 
 export const Skills = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  padding: 64px;
+  row-gap: 90px;
+  column-gap: 110px;
   margin-bottom: 50px;
 `;
 export const ButtonsContainer = styled.div`
