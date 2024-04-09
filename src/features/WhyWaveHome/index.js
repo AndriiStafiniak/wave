@@ -15,6 +15,7 @@ import {
 } from "./styled";
 import { ReactComponent as Main } from "../../images/icons/main.svg";
 import { ReactComponent as Icon } from "../../images/icons/icon.svg";
+import { MainSection } from "./MainSection";
 const pathImg = require("../../images/Rectangle1.png");
 
 export const WhyWaveHome = () => {
@@ -40,6 +41,7 @@ export const WhyWaveHome = () => {
           <Img src={pathImg} />
         </ImageWrapper>
       </SectionStyle>
+      <MainSection />
       <Skills>
         <SpecialContent>
           <TitleSpecial>Software developer</TitleSpecial>
