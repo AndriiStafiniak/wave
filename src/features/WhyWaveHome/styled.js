@@ -50,6 +50,15 @@ export const Button = styled.button`
   cursor: pointer;
   max-width: 155px;
 `;
+export const SecondButton = styled.button`
+  padding: 10px 20px;
+  background-color: #eee;
+  color: #212121;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  max-width: 155px;
+`;
 export const Img = styled.img`
   width: 570px;
   height: 534px;
@@ -100,4 +109,8 @@ export const SpecialContent = styled.div`
 export const Skills = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+`;
+export const ButtonsContainer = styled.div`
+  display: flex;
+  gap: 20px;
 `;

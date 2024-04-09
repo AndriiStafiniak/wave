@@ -1,10 +1,12 @@
 import {
   Button,
+  ButtonsContainer,
   Content,
   Description,
   ExtraTitleContent,
   ImageWrapper,
   Img,
+  SecondButton,
   SectionStyle,
   Skills,
   SpecialContent,
@@ -29,7 +31,10 @@ export const WhyWaveHome = () => {
             provide you with tailored strategies designed to work perfectly for
             your brand, no matter what challenges or needs arise.
           </Description>
-          <Button>Contact Us</Button>
+          <ButtonsContainer>
+            <Button>Contact Us</Button>
+            <SecondButton>Our Services</SecondButton>
+          </ButtonsContainer>
         </Content>
         <ImageWrapper>
           <Img src={pathImg} />
