@@ -48,6 +48,7 @@ export const NumberBall = styled.div`
   font-style: normal;
   font-weight: 500;
   line-height: 155%;
+  letter-spacing: -2px;
   background-color: #886cff;
   border-radius: 50%;
   width: 30px;

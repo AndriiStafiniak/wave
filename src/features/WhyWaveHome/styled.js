@@ -1,14 +1,17 @@
 import { styled } from "styled-components";
-
+export const AllContent = styled.main`
+  max-width: 1920px;
+  margin: 0 auto;
+`;
 export const SectionStyle = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px;
   position: relative;
-  max-width: 1920px;
+
   width: 100%;
-  margin: 0 auto;
+
   gap: 100px;
   background-color: #f5faff;
   box-sizing: border-box;
