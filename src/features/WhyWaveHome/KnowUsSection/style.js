@@ -3,7 +3,8 @@ import { styled } from "styled-components";
 export const WrapperStyled = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 15px;
+  padding: 70px;
+  margin-top: 150px;
 `;
 
 export const ContentStyled = styled.div`

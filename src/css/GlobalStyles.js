@@ -7,6 +7,11 @@ export const GlobalStyle = createGlobalStyle`
     overflow: auto;
     scroll-behavior: smooth;
   }
+  @media(max-width: 700px){
+   img{
+      max-width: 320px;
+   }
+  }
 
   *, ::after, ::before{
     margin: 0;

@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import { ReactComponent as Social } from "../../images/icons/socials.svg";
 
 export const FooterContainer = styled.div`
-  max-width: 1920px;
   width: 100%;
   margin: 0 auto;
   background-color: ${({ theme }) => theme.colors.header.background};
