@@ -11,6 +11,7 @@ export const SectionStyle = styled.section`
   margin: 0 auto;
   gap: 100px;
   background-color: #f5faff;
+  box-sizing: border-box;
 `;
 export const Content = styled.div`
   display: flex;

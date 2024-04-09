@@ -8,10 +8,32 @@ import {
   SecondtImg,
   TitleContetn,
 } from "./style";
+import { ReactComponent as ArrowSection } from "../../../images/icons/arrowSection.svg";
+import {
+  ExtraArrowText,
+  ExtraContentContainerArrow,
+} from "../../../common/SecondSection/styled";
+import { ScrollSlice } from "../ScrollSlice";
 
 export const MainSection = () => {
   const firstImg = require("../../../images/Rectangle1112.png");
   const secondImg = require("../../../images/Rectangle1113.png");
+
+  const slices = [
+    {
+      title: "Flexible and adaptable approach",
+      description: "Our team is constantly learning...",
+    },
+    {
+      title: "Flexible and adaptable approach",
+      description: "Our team is constantly learning...",
+    },
+    {
+      title: "Flexible and adaptable approach",
+      description: "Our team is constantly learning...",
+    },
+  ];
+
   return (
     <Container>
       <ContainerImg>
@@ -20,6 +42,12 @@ export const MainSection = () => {
         <Gradient />
       </ContainerImg>
       <ContainerContent>
+        <ExtraContentContainerArrow>
+          <ArrowSection />
+          <ExtraArrowText>
+            Change is not just inevitable, it's essential. 
+          </ExtraArrowText>
+        </ExtraContentContainerArrow>
         <TitleContetn>We ride Wave of change</TitleContetn>
         <DesriptionContntent>
           It's what drives progress and innovation. With 20 years of experience

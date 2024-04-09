@@ -16,9 +16,37 @@ import {
 import { ReactComponent as Main } from "../../images/icons/main.svg";
 import { ReactComponent as Icon } from "../../images/icons/icon.svg";
 import { MainSection } from "./MainSection";
+import { ScrollSlice } from "./ScrollSlice";
 const pathImg = require("../../images/Rectangle1.png");
 
 export const WhyWaveHome = () => {
+  const slices = [
+    {
+      title: "Flexible and adaptable approach",
+      description:
+        "Our team is constantly learning and expanding their skill set so that we can provide our clients with cutting-edge solutions that deliver results. With our versatile approach, we can quickly respond to changing client demands.",
+    },
+    {
+      title: "Flexible and adaptable approach",
+      description:
+        "Our team is constantly learning and expanding their skill set so that we can provide our clients with cutting-edge solutions that deliver results. With our versatile approach, we can quickly respond to changing client demands.",
+    },
+    {
+      title: "Flexible and adaptable approach",
+      description:
+        "Our team is constantly learning and expanding their skill set so that we can provide our clients with cutting-edge solutions that deliver results. With our versatile approach, we can quickly respond to changing client demands.",
+    },
+    {
+      title: "Flexible and adaptable approach",
+      description:
+        "Our team is constantly learning and expanding their skill set so that we can provide our clients with cutting-edge solutions that deliver results. With our versatile approach, we can quickly respond to changing client demands.",
+    },
+    {
+      title: "Flexible and adaptable approach",
+      description:
+        "Our team is constantly learning and expanding their skill set so that we can provide our clients with cutting-edge solutions that deliver results. With our versatile approach, we can quickly respond to changing client demands.",
+    },
+  ];
   return (
     <>
       <SectionStyle>
@@ -92,6 +120,7 @@ export const WhyWaveHome = () => {
           possible solutions for your users.
         </SpecialContent>
       </Skills>
+      <ScrollSlice slices={slices} />
     </>
   );
 };
