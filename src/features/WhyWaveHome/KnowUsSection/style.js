@@ -10,6 +10,7 @@ export const WrapperStyled = styled.section`
 export const ContentStyled = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 30px;
 `;
 export const DescriptionStyled = styled.div`
   color: #374168;

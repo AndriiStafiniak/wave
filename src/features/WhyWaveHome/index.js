@@ -20,6 +20,7 @@ import { MainSection } from "./MainSection";
 import { ScrollSlice } from "./ScrollSlice";
 import { SectionInfo } from "./SectionInfo";
 import { KnowUsSection } from "./KnowUsSection";
+import { LastSection } from "./LastSection";
 const pathImg = require("../../images/Rectangle1.png");
 
 export const WhyWaveHome = () => {
@@ -117,6 +118,7 @@ export const WhyWaveHome = () => {
       <SectionInfo />
       <KnowUsSection />
       <ScrollSlice slices={slices} />
+      <LastSection />
     </AllContent>
   );
 };
