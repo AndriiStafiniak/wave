@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as Social } from "../../images/icons/socials.svg";
 
@@ -9,30 +9,46 @@ export const FooterContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px;
+  padding: 1.125rem; /* 18px */
   border-bottom: 1px solid #000;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
 `;
+
 export const FooterLogo = styled.img`
-  width: 250px;
-  height: 94px;
-  margin: 18px 28px;
+  width: 15.625rem; /* 250px */
+  height: 5.875rem; /* 94px */
+  margin: 1.125rem 1.75rem; /* 18px 28px */
+
+  @media (max-width: 900px) {
+    margin: 1rem;
+  }
 `;
+
 export const NavContainer = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem; /* 10px */
 `;
+
 export const MenuLink = styled(NavLink)`
   text-decoration: none;
   color: ${({ theme }) => theme.colors.header.navLinkColor};
   font-family: Outfit;
-  font-size: 14px;
-  letter-spacing: -0.3px;
+  font-size: 0.875rem; /* 14px */
+  letter-spacing: -0.01875rem; /* -0.3px */
   text-transform: uppercase;
   font-weight: 500;
   line-height: 170%;
+
+  @media (max-width: 900px) {
+    font-size: 0.75rem;
+  }
 `;
 
 export const SubFooter = styled.footer`
@@ -40,8 +56,18 @@ export const SubFooter = styled.footer`
   justify-content: space-around;
   background-color: ${({ theme }) => theme.colors.header.background};
   align-items: center;
-  padding: 20px;
+  padding: 1.25rem; /* 20px */
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    padding: 1rem;
+  }
 `;
 
-export const Text = styled.p``;
+export const Text = styled.p`
+  @media (max-width: 900px) {
+    text-align: center;
+  }
+`;
+
 export const SocialItem = styled(Social)``;

@@ -5,4 +5,8 @@ export const MapContainer = styled.div`
   height: 500px;
   margin: auto;
   max-width: 1920px;
+  padding: 100px;
+  @media (max-width: 900px) {
+    padding: 16px;
+  }
 `;

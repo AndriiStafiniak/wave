@@ -5,28 +5,42 @@ import LineImage from "../../../images/icons/line.svg";
 export const NavLinks = styled(NavLink)`
   text-align: center;
   font-family: Outfit;
-  font-size: 60px;
+  font-size: 3.75rem; /* 60px */
   font-style: normal;
   font-weight: 500;
   line-height: 93%;
-  letter-spacing: -2px;
+  letter-spacing: -0.125rem; /* -2px */
   text-decoration: none;
   background: linear-gradient(186deg, #00e9e9 0.38%, #886cff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  margin: 88px;
+  width: 100%;
+  margin: 5.5rem; /* 88px */
+
+  @media (max-width: 900px) {
+    font-size: 2rem;
+    margin: 2rem;
+  }
 `;
 
 export const ContainerLastSection = styled.div`
-  min-height: 391px;
+  min-height: 24.4375rem; /* 391px */
   background-color: #f8fafc;
-  padding: 70px;
+  padding: 4.375rem; /* 70px */
+
+  @media (max-width: 900px) {
+    padding: 2rem;
+  }
 `;
+
 export const ContentLas = styled.div`
   background-image: url(${LineImage});
   display: flex;
   justify-content: space-around;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 `;

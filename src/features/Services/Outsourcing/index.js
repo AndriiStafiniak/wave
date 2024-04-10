@@ -2,7 +2,7 @@ import { BenefitsSection } from "../../../common/BenefitSection";
 import { SecondSetion } from "../../../common/SecondSection";
 import { Section } from "../../../common/Section";
 import { ExpertiseSection } from "../../../common/ExpertiseSection";
-import { ExtraTitleContent } from "./styled";
+import { ExtraTitleContent } from "../styled";
 import { ContactForm } from "../../../common/ContactUs";
 
 export const OutSours = () => {

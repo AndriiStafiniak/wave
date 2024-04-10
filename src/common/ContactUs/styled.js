@@ -1,73 +1,82 @@
 import styled from "styled-components";
 
 export const FormContainer = styled.div`
-  max-width: 500px;
+  max-width: 31.25rem; /* 500px */
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.25rem; /* 20px */
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 1.875rem; /* 30px */
+
+  @media (max-width: 900px) {
+    padding: 1rem;
+  }
 `;
 
 export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem; /* 10px */
 `;
 
 export const Input = styled.input`
-  padding: 10px;
+  padding: 0.625rem; /* 10px */
   border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  border-radius: 0.3125rem; /* 5px */
+  margin-bottom: 0.625rem; /* 10px */
 `;
 
 export const Textarea = styled.textarea`
-  padding: 10px;
+  padding: 0.625rem; /* 10px */
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 0.3125rem; /* 5px */
   resize: none;
   overflow-y: auto;
 `;
 
 export const Button = styled.button`
-  padding: 10px 20px;
-  color: white;
+  padding: 0.625rem 1.25rem; /* 10px 20px */
   background-color: #886cff;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.3125rem; /* 5px */
   cursor: pointer;
-  color: #fff;
   text-align: center;
   font-family: "DM Sans";
-  font-size: 15px;
-  font-style: normal;
-  max-width: 216px;
+  font-size: 0.9375rem; /* 15px */
+  color: #fff;
+  max-width: 13.5rem; /* 216px */
+
+  @media (max-width: 900px) {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+  }
 `;
 
 export const ErrorMessage = styled.div`
   color: red;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  margin-top: -0.625rem; /* -10px */
+  margin-bottom: 0.625rem; /* 10px */
 `;
 
 export const FormTitle = styled.h2`
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 116%;
-  letter-spacing: -2px;
+  font-size: 3rem;
   text-align: center;
+  letter-spacing: -0.125rem;
+
+  @media (max-width: 900px) {
+    font-size: 2.5rem;
+  }
 `;
 
 export const FormSubtitle = styled.p`
   font-family: "DM Sans";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 156%;
-  letter-spacing: -0.3px;
-  margin-bottom: 60px;
+  font-size: 1.125rem;
+  margin-bottom: 3.75rem;
   text-align: center;
   color: #374168;
+
+  @media (max-width: 900px) {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
 `;

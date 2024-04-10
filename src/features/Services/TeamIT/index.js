@@ -3,7 +3,7 @@ import { ContactForm } from "../../../common/ContactUs";
 import { ExpertiseSection } from "../../../common/ExpertiseSection";
 import { SecondSetion } from "../../../common/SecondSection";
 import { Section } from "../../../common/Section";
-import { ExtraText, ExtraTitleContent } from "./style";
+import { ExtraText, ExtraTitleContent } from "../styled";
 
 export const TeamIt = () => {
   const pathImg = require("../../../images/BisImg.png");
