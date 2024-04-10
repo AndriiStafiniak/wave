@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wave/static/css/main.c5c7cb6f.css",
-    "main.js": "/wave/static/js/main.da3875e2.js",
+    "main.js": "/wave/static/js/main.7c223270.js",
     "static/js/453.49fa5edd.chunk.js": "/wave/static/js/453.49fa5edd.chunk.js",
     "static/media/Rectangle1.png": "/wave/static/media/Rectangle1.3e7562c5cc2c6637141a.png",
     "static/media/BisImg.png": "/wave/static/media/BisImg.26d30e4bb3f9ac6d68f7.png",
@@ -14,8 +14,10 @@
     "static/media/bgImg.png": "/wave/static/media/bgImg.8e442f02718d0ad7f0d2.png",
     "static/media/icon.svg": "/wave/static/media/icon.db5ef46d3249f28142a4a34c3f770e84.svg",
     "static/media/Logo.png": "/wave/static/media/Logo.f78e3cbb557434ef2558.png",
+    "static/media/secIcon.svg": "/wave/static/media/secIcon.4d6a4d8a9ca97b365168fda9432710dc.svg",
     "static/media/socials.svg": "/wave/static/media/socials.3b0a136dc7406a9888d5d92f6f45646e.svg",
     "static/media/arrowSection.svg": "/wave/static/media/arrowSection.66cb97acd9a31472331f2278344cf975.svg",
+    "static/media/location.svg": "/wave/static/media/location.2a2a3cf6cd63c291e9f4a2db6d4ea77f.svg",
     "static/media/slick.svg": "/wave/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/wave/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/wave/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -23,16 +25,17 @@
     "static/media/dot.svg": "/wave/static/media/dot.d6d58a6823d505f493cf386a3dc7fc81.svg",
     "static/media/main.svg": "/wave/static/media/main.c4e21ba8e0a01dd768359f188311ef4d.svg",
     "static/media/sliderMain.svg": "/wave/static/media/sliderMain.f95adb6dc9f392e35d77292686b9c3f8.svg",
+    "static/media/line.svg": "/wave/static/media/line.1b0b6579ccaef0831320295ac0063385.svg",
     "static/media/vector.svg": "/wave/static/media/vector.89ff0164b3bcb3600ecef022c7e2ce01.svg",
     "index.html": "/wave/index.html",
     "static/media/smallDot.svg": "/wave/static/media/smallDot.b1b0bf2c90462c75ee37357d3a130a4a.svg",
     "static/media/arrow.svg": "/wave/static/media/arrow.ccd6ca1b88bb32809f9590954e82e2b9.svg",
     "main.c5c7cb6f.css.map": "/wave/static/css/main.c5c7cb6f.css.map",
-    "main.da3875e2.js.map": "/wave/static/js/main.da3875e2.js.map",
+    "main.7c223270.js.map": "/wave/static/js/main.7c223270.js.map",
     "453.49fa5edd.chunk.js.map": "/wave/static/js/453.49fa5edd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5c7cb6f.css",
-    "static/js/main.da3875e2.js"
+    "static/js/main.7c223270.js"
   ]
 }
