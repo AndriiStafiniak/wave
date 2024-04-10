@@ -3,20 +3,20 @@ import styled from "styled-components";
 export const NewsletterContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 2rem; /* Utrzymano rem */
+  padding: 2rem;
   border-radius: 0.5rem; /* 8px */
 `;
 
 export const Title = styled.h2`
-  margin-bottom: 1rem; /* Utrzymano rem */
+  margin-bottom: 1rem;
 `;
 
 export const Description = styled.p`
-  margin-bottom: 2rem; /* Utrzymano rem */
+  margin-bottom: 2rem;
   width: 50%;
 
   @media (max-width: 900px) {
-    width: 100%; /* Aby lepiej pasować do mniejszych ekranów */
+    width: 100%;
   }
 `;
 
@@ -26,7 +26,7 @@ export const Form = styled.form`
 `;
 
 export const Input = styled.input`
-  width: 65%; /* Dostosowano zgodnie z oryginałem */
+  width: 65%;
   padding: 0.75rem;
   margin-bottom: 1rem;
   border: none;
@@ -34,12 +34,12 @@ export const Input = styled.input`
   background-color: transparent;
 
   @media (max-width: 900px) {
-    width: 100%; /* Pełna szerokość na mniejszych ekranach */
+    width: 100%;
   }
 `;
 
 export const Button = styled.button`
-  width: 35%; /* Dostosowano zgodnie z oryginałem */
+  width: 35%;
   padding: 0.75rem;
   border: none;
   background-color: #6200ea;
@@ -52,7 +52,7 @@ export const Button = styled.button`
   }
 
   @media (max-width: 900px) {
-    width: 100%; /* Pełna szerokość na mniejszych ekranach */
+    width: 100%;
   }
 `;
 

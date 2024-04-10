@@ -15,6 +15,7 @@ export const FooterContainer = styled.div`
   @media (max-width: 900px) {
     flex-direction: column;
     padding: 1rem 0.5rem;
+    justify-content: center;
   }
 `;
 
@@ -32,8 +33,9 @@ export const NavContainer = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 0.625rem; /* 10px */
+  align-items: flex-start;
+  gap: 1rem; /* 10px */
+  margin-bottom: 20px;
 `;
 
 export const MenuLink = styled(NavLink)`
@@ -61,6 +63,7 @@ export const SubFooter = styled.footer`
   @media (max-width: 900px) {
     flex-direction: column;
     padding: 1rem;
+    gap: 20px;
   }
 `;
 

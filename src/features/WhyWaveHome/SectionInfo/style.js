@@ -10,9 +10,9 @@ export const MainTitle = styled.h2`
   line-height: 7.25rem; /* 116px */
   letter-spacing: -0.125rem; /* -2px */
 
-  @media (max-width: 900px) {
-    font-size: 2rem; /* Dostosowanie rozmiaru czcionki */
-    line-height: 2.5rem; /* Dostosowanie wysokości linii */
+  @media (max-width: 1300px) {
+    font-size: 2rem; 
+    line-height: 2.5rem; /
   }
 `;
 
@@ -23,10 +23,10 @@ export const SectionStyle = styled.section`
   padding: 0.9375rem; /* 15px */
   height: 43.75rem; /* 700px */
 
-  @media (max-width: 900px) {
-    padding: 1rem; /* Zwiększenie paddingu */
-    height: auto; /* Dostosowanie wysokości */
-    margin: 2rem auto; /* Zmniejszenie marginesu */
+  @media (max-width: 1300px) {
+    padding: 1rem;
+    height: auto;
+    margin: 2rem auto;
   }
 `;
 
@@ -36,7 +36,7 @@ export const ListInfo = styled.div`
   align-items: baseline;
   justify-content: end;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 30px;
@@ -47,9 +47,9 @@ export const WrapperMain = styled.div`
   display: flex;
   justify-content: space-around;
 
-  @media (max-width: 900px) {
-    flex-direction: column; /* Stosowanie elementów w kolumnie */
-    align-items: center; /* Centrowanie elementów */
+  @media (max-width: 1300px) {
+    align-items: center;
+    flex-direction: column;
   }
 `;
 
@@ -61,9 +61,9 @@ export const Image = styled.img`
   z-index: 3;
   position: absolute;
 
-  @media (max-width: 900px) {
-    position: static; /* Usunięcie pozycjonowania absolutnego */
-    width: 80%; /* Dostosowanie szerokości obrazu */
+  @media (max-width: 1300px) {
+    position: static;
+    width: 80%;
   }
 `;
 
@@ -81,13 +81,13 @@ export const GradientObject = styled.div`
   left: -4.375rem; /* -70px */
   z-index: 5;
 
-  @media (max-width: 900px) {
-    position: static; /* Dostosowanie pozycji dla lepszego wyświetlania */
-    margin-top: 1rem; /* Dodanie marginesu górnego */
-    width: 80%; /* Dostosowanie szerokości */
-    height: auto; /* Dostosowanie wysokości */
-    bottom: auto; /* Usunięcie wartości bottom */
-    left: auto; /* Usunięcie wartości left */
+  @media (max-width: 1300px) {
+    position: static; 
+    margin-top: 1rem; 
+    width: 80%; 
+    height: auto; 
+    bottom: auto; 
+    left: auto; /
   }
 `;
 
@@ -99,22 +99,22 @@ export const Figure = styled.p`
   position: absolute;
   z-index: 1;
 
-  @media (max-width: 900px) {
-    display: none; /* Ukrycie na mniejszych ekranach, jeśli zakłóca układ */
+  @media (max-width: 1300px) {
+    display: none;
   }
 `;
 
 export const ExtraObjectContent = styled.span`
   color: #61dcdf;
   font-family: Jost;
-  font-size: 3rem; /* 48px */
+  font-size: 3rem;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
   letter-spacing: -0.12rem; /* -1.92px */
 
-  @media (max-width: 900px) {
-    font-size: 2rem; /* Dostosowanie rozmiaru czcionki */
+  @media (max-width: 1300px) {
+    font-size: 2rem;
   }
 `;
 
@@ -122,27 +122,27 @@ export const ExtraObjectContentText = styled.span`
   color: #16243e;
   text-align: center;
   font-family: Jost;
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
   line-height: 140%;
   letter-spacing: -0.05rem; /* -0.8px */
 
-  @media (max-width: 900px) {
-    font-size: 1rem; /* Zmniejszenie rozmiaru czcionki dla lepszej czytelności */
+  @media (max-width: 1300px) {
+    font-size: 1rem;
   }
 `;
 
 export const ExtraListContent = styled.span`
   color: #16243e;
   font-family: Jost;
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 8.75rem; /* 140px, poprawiono na wartość procentową lub inną jednostkę */
-  letter-spacing: -0.05rem; /* -0.8px */
+  line-height: 8.75rem;
+  letter-spacing: -0.05rem;
 
-  @media (max-width: 900px) {
-    line-height: normal; /* Normalizacja line-height */
+  @media (max-width: 1300px) {
+    line-height: normal;
   }
 `;

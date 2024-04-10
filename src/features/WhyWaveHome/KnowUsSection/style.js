@@ -17,6 +17,9 @@ export const ContentStyled = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.875rem; /* 30px */
+  @media (max-width: 900px) {
+    align-items: center;
+  }
 `;
 
 export const DescriptionStyled = styled.div`

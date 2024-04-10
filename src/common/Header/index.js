@@ -5,7 +5,6 @@ import {
   HeaderContainer,
   HeaderLogo,
   MenuLink,
-  NavContainerStyled,
   BurgerMenuButton,
   BurgerIcon,
   NavContainer,
@@ -13,11 +12,11 @@ import {
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 767);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 767);
+      setIsMobile(window.innerWidth < 900);
     };
 
     window.addEventListener("resize", handleResize);

@@ -4,7 +4,6 @@ export const GlobalStyle = createGlobalStyle`
   html{
     box-sizing: border-box;
     height: 100vh;
-    overflow: auto;
     scroll-behavior: smooth;
   }
   @media(max-width: 700px){
@@ -20,6 +19,11 @@ export const GlobalStyle = createGlobalStyle`
 
   body{
    font-family: Outfit;
+   overflow: auto;
+
+  }
+  body.no-scroll {
+    overflow: hidden !important;
   }
 
   #root{

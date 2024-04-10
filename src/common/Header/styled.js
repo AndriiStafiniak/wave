@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-  max-width: 120rem; /* 1920px */
   width: 100%;
   margin: 0 auto;
   background-color: ${({ theme }) => theme.colors.header.background};
@@ -75,14 +74,14 @@ export const BurgerIcon = styled.div`
 
 export const NavContainer = styled.nav`
   display: flex;
-  flex-direction: row
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 2.25rem; /* 36px */
-  @media (max-width: 767px) {
+  @media (max-width: 900px) {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     position: fixed;
     top: 0;
     left: 0;
@@ -93,15 +92,16 @@ export const NavContainer = styled.nav`
     transform: ${({ isOpen }) =>
       isOpen ? "translateX(0)" : "translateX(-100%)"};
     transition: transform 0.3s ease-in-out;
+    padding: 10px;
   }
 `;
 
 export const BurgerMenuButton = styled.button`
   position: fixed;
-  top: 30px;
+  top: 50px;
   right: 30px;
   display: none;
-  @media (max-width: 767px) {
+  @media (max-width: 900px) {
     display: block;
     cursor: pointer;
     background: transparent;

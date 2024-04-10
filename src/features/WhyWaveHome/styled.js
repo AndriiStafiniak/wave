@@ -13,7 +13,7 @@ export const SectionStyle = styled.section`
   background-color: #f5faff;
   box-sizing: border-box;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1350px) {
     flex-direction: column;
     padding: 2rem;
     gap: 2rem;
@@ -25,10 +25,13 @@ export const Content = styled.div`
   flex-direction: column;
   gap: 2.5rem; /* 40px */
   max-width: 40%;
+  margin-left: 150px;
 
   @media (max-width: 900px) {
-    max-width: 80%;
+    align-items: center;
     gap: 1.5rem;
+    margin-left: 0;
+    max-width: 100%;
   }
 `;
 
@@ -46,7 +49,7 @@ export const Title = styled.h2`
   -webkit-text-fill-color: transparent;
 
   @media (max-width: 900px) {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
 `;
@@ -60,9 +63,8 @@ export const Description = styled.p`
   line-height: 155%;
   letter-spacing: -0.01875rem; /* -0.3px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1350px) {
     font-size: 1rem;
-    max-width: 50%;
   }
 `;
 
@@ -181,10 +183,10 @@ export const Skills = styled.div`
 
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
-    padding: 2rem;
-    row-gap: 3rem;
-    column-gap: 2rem;
-    margin-bottom: 2rem;
+    padding: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
   }
 `;
 

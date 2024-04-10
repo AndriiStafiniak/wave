@@ -8,7 +8,7 @@ export const Container = styled.div`
   min-height: 34.6875rem; /* 555px */
   justify-content: space-around;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1350px) {
     flex-direction: column;
     padding-top: 5rem;
     align-items: center;
@@ -26,10 +26,12 @@ export const ContainerContent = styled.div`
   display: flex;
   flex-direction: column;
   gap: 3.125rem; /* 50px */
+  margin-left: 200px;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1350px) {
     width: 80%;
     gap: 2rem;
+    margin: 0%;
   }
 `;
 
@@ -55,7 +57,7 @@ export const DesriptionContntent = styled.h3`
   line-height: 156%;
   letter-spacing: -0.01875rem; /* -0.3px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     font-size: 1rem;
   }
 `;
@@ -64,7 +66,7 @@ export const FirstImg = styled.img`
   position: absolute;
   z-index: 3;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1350px) {
     position: relative;
     margin-top: 2rem;
     width: 80%;
@@ -79,7 +81,7 @@ export const SecondtImg = styled.img`
   left: 12.125rem; /* 194px */
   z-index: 5;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1350px) {
     position: relative;
     margin-top: 1rem;
     width: 60%;
@@ -98,7 +100,7 @@ export const Gradient = styled.div`
   height: 12.5rem; /* 200px */
   border-radius: 0.3125rem; /* 5px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1350px) {
     position: relative;
     margin-top: 1rem;
     width: 70%;

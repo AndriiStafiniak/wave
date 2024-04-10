@@ -1,9 +1,12 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+export const SubMenuContainerMain = styled.div`
+  position: relative;
+`;
 
 export const SubMenuLink = styled(NavLink)`
   text-decoration: none;
-  color: ${({ theme }) => theme.colors.header.navLinkColor};
+  color: #fff;
   font-family: Outfit;
   font-size: 0.9375rem; /* 15px */
   font-weight: 700;
@@ -11,10 +14,11 @@ export const SubMenuLink = styled(NavLink)`
   letter-spacing: -0.01875rem; /* -0.3px */
   text-transform: uppercase;
   position: relative;
+  z-index: 10;
+  color: #b7b7b7;
   @media (max-width: 900px) {
     gap: 1.5rem;
-    color: #b7b7b7;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 `;
 
@@ -24,12 +28,16 @@ export const SubNavContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 2.25rem;
+  z-index: 12;
+  background-color: rgba(2, 2, 2, 0.7);
+  padding: 10px;
+
   position: fixed;
-  top: 10px;
-  right: 10px;
 
   @media (max-width: 900px) {
     gap: 1.5rem;
+    bottom: 30px;
+    right: 30px;
   }
 `;
 
@@ -38,7 +46,7 @@ export const ArrowButton = styled.button`
   border: none;
   cursor: pointer;
   display: flex;
-  margin-right: 6px;
+  margin-right: 10px;
 
   @media (max-width: 900px) {
     gap: 1.5rem;
