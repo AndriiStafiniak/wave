@@ -66,7 +66,7 @@ export const Paragraph = styled.p`
 
 export const SliceContener = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.875rem; /* 30px */
 
   @media (max-width: 1300px) {

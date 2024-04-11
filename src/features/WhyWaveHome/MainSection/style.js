@@ -72,6 +72,7 @@ export const FirstImg = styled.img`
     width: 80%;
     left: 10%;
     top: auto;
+    max-width: 80%;
   }
 `;
 
@@ -84,9 +85,10 @@ export const SecondtImg = styled.img`
   @media (max-width: 1350px) {
     position: relative;
     margin-top: 1rem;
-    width: 60%;
+    width: 80%;
     left: 20%;
     top: auto;
+    max-width: 350px;
   }
 `;
 

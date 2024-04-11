@@ -11,6 +11,10 @@ export const ExtraTitleContent = styled.span`
   font-weight: 500;
   line-height: 108%;
   letter-spacing: -0.125rem; /* -2px */
+  @media (max-width: 900px) {
+    font-size: 2rem;
+    text-align: center;
+  }
 `;
 
 export const ExtraText = styled.p`
@@ -22,4 +26,7 @@ export const ExtraText = styled.p`
 
   line-height: 155%;
   letter-spacing: -0.01875rem;
+  @media (max-width: 900px) {
+    line-height: 120%;
+  }
 `;

@@ -64,7 +64,7 @@ export const Button = styled.button`
   cursor: pointer;
   max-width: 9.6875rem; /* 155px */
 
-  @media (max-width: 1300px) {
+  @media (max-width: 900px) {
     max-width: 100%;
   }
 `;
@@ -77,7 +77,7 @@ export const ImageContainer = styled.div`
     height: auto;
   }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 900px) {
     max-width: 90%;
   }
 `;

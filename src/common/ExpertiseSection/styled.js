@@ -23,7 +23,7 @@ export const Title = styled.h2`
   line-height: 6.75rem; /* 108px */
   letter-spacing: -0.125rem; /* -2px */
 
-  @media (max-width: 768px) {
+  @media (max-width: 1300px) {
     font-size: 2rem;
     text-align: center;
   }
@@ -32,7 +32,7 @@ export const Title = styled.h2`
 export const ContentTitle = styled.h3`
   font-size: 2.5rem; /* 40px */
 
-  @media (max-width: 768px) {
+  @media (max-width: 1300px) {
     font-size: 2rem;
   }
 `;
@@ -40,7 +40,7 @@ export const ContentTitle = styled.h3`
 export const SubTitle = styled.h4`
   font-size: 1.875rem; /* 30px */
 
-  @media (max-width: 768px) {
+  @media (max-width: 1300px) {
     font-size: 1.5rem;
     text-align: center;
   }
@@ -57,7 +57,7 @@ export const Description = styled.p`
   width: 40%;
   text-align: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1300px) {
     width: 80%;
   }
 `;
@@ -77,8 +77,8 @@ export const NumberBall = styled.div`
   height: 1.875rem; /* 30px */
   padding: 0;
 
-  @media (max-width: 768px) {
-    width: 2.5rem;
-    height: 2.5rem;
+  @media (max-width: 1300px) {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 `;

@@ -3,6 +3,7 @@ import { NewsletterForm } from "./Newsleter";
 import { SubMenu } from "../SubMenu";
 import {
   FooterContainer,
+  FooterLinkContainer,
   FooterLogo,
   MenuLink,
   NavContainer,
@@ -17,7 +18,7 @@ export const Footer = () => {
     <>
       <FooterContainer>
         <FooterLogo src={imagePath} />
-        <div>
+        <FooterLinkContainer>
           <NavContainer>
             <MenuLink to={toWhyWaveHome()}>Home</MenuLink>
             <MenuLink to={toReferenc()}>Referense</MenuLink>
@@ -28,7 +29,7 @@ export const Footer = () => {
             <MenuLink to="tel:000000000">Telefon</MenuLink>
             <MenuLink to="Warszawa">Adress</MenuLink>
           </NavContainer>
-        </div>
+        </FooterLinkContainer>
         <NewsletterForm />
       </FooterContainer>
       <SubFooter>

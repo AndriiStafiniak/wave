@@ -41,6 +41,6 @@ export const Picture = styled.img`
   max-width: 25rem; /* 400px */
 
   @media (max-width: 1300px) {
-    max-width: 350px;
+    max-width: 80%;
   }
 `;

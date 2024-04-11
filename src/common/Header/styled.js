@@ -81,6 +81,7 @@ export const NavContainer = styled.nav`
   @media (max-width: 900px) {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: start;
     position: fixed;
     top: 0;

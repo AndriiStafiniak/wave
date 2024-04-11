@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { ReactComponent as ArrowIcon } from "../../images/icons/arrow.svg";
 import {
   ArrowButton,
+  ArrowIconStyle,
   SubMenuContainer,
   SubMenuContainerMain,
   SubMenuLink,
@@ -37,15 +37,23 @@ export const SubMenu = ({ onItemClick }) => {
   const handleMouseLeave = () => {
     setShowSubMenu(false);
   };
+  const hideMemu = () => {
+    if (showSubMenu) {
+      setShowSubMenu(false);
+    } else if (!showSubMenu) {
+      setShowSubMenu(true);
+    }
+    return;
+  };
 
   return (
     <SubMenuContainerMain
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <ArrowButton>
+      <ArrowButton onClick={hideMemu}>
         <SubMenuTitle>Services</SubMenuTitle>
-        <ArrowIcon />
+        <ArrowIconStyle />
       </ArrowButton>
       {showSubMenu && (
         <SubNavContainer>

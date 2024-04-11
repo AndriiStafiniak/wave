@@ -51,6 +51,9 @@ export const Title = styled.h2`
   @media (max-width: 1300px) {
     font-size: 2rem;
     margin-bottom: 1rem;
+    line-height: 2rem;
+    width: 80%;
+    margin-top: 30px;
   }
 `;
 
@@ -65,6 +68,7 @@ export const Description = styled.p`
 
   @media (max-width: 1350px) {
     font-size: 1rem;
+    width: 80%;
   }
 `;
 
@@ -94,7 +98,7 @@ export const Img = styled.img`
 
   @media (max-width: 1300px) {
     width: 80%;
-    height: auto;
+    max-height: 300px;
   }
 `;
 
@@ -167,10 +171,12 @@ export const SpecialContent = styled.div`
   justify-content: center;
   font-family: "DM Sans";
   font-size: 1rem; /* 16px */
-  font-style: normal;
   font-weight: 400;
   line-height: 162%;
   align-items: center;
+  @media (max-width: 1300px) {
+    width: 80%;
+  }
 `;
 
 export const Skills = styled.div`
@@ -182,8 +188,8 @@ export const Skills = styled.div`
   margin-bottom: 3.125rem; /* 50px */
 
   @media (max-width: 900px) {
-    grid-template-columns: 1fr;
-    padding: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    padding: 0.5rem;
     row-gap: 1rem;
     column-gap: 1rem;
     margin-bottom: 1rem;

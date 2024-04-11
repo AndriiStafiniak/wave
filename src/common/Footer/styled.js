@@ -74,3 +74,10 @@ export const Text = styled.p`
 `;
 
 export const SocialItem = styled(Social)``;
+export const FooterLinkContainer = styled.div`
+  @media (max-width: 900px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+`;

@@ -22,6 +22,9 @@ export const SectionStyle = styled.section`
   margin: 3.125rem auto; /* 50px auto */
   padding: 0.9375rem; /* 15px */
   height: 43.75rem; /* 700px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media (max-width: 1300px) {
     padding: 1rem;
@@ -35,11 +38,11 @@ export const ListInfo = styled.div`
   gap: 0.5rem; /* 8px */
   align-items: baseline;
   justify-content: end;
+  margin: 50px 0;
 
   @media (max-width: 1300px) {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 30px;
+    flex-wrap: wrap;
+    max-width: 300px;
   }
 `;
 
@@ -55,6 +58,11 @@ export const WrapperMain = styled.div`
 
 export const ImageContainer = styled.div`
   position: relative;
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Image = styled.img`
@@ -63,7 +71,7 @@ export const Image = styled.img`
 
   @media (max-width: 1300px) {
     position: static;
-    width: 80%;
+    max-width: 80%;
   }
 `;
 

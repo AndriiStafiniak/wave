@@ -87,8 +87,8 @@ export const Img = styled.img`
   height: 33.375rem; /* 534px */
 
   @media (max-width: 1300px) {
-    width: 80%;
-    height: auto;
+    max-width: 80%;
+    max-height: 300px;
   }
 `;
 

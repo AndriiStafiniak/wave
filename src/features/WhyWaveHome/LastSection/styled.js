@@ -30,7 +30,7 @@ export const ContainerLastSection = styled.div`
   padding: 4.375rem; /* 70px */
 
   @media (max-width: 1300px) {
-    padding: 2rem;
+    padding: 1rem;
   }
 `;
 
@@ -42,5 +42,6 @@ export const ContentLas = styled.div`
   background-size: 100% 100%;
   @media (max-width: 1300px) {
     flex-direction: column;
+    width: 80%;
   }
 `;

@@ -1,9 +1,18 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { ReactComponent as ArrowIcon } from "../../images/icons/arrow.svg";
+
 export const SubMenuContainerMain = styled.div`
   position: relative;
 `;
-
+export const ArrowIconStyle = styled(ArrowIcon)`
+  margin-left: 10px;
+  @media (max-width: 900px) {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+  }
+`;
 export const SubMenuLink = styled(NavLink)`
   text-decoration: none;
   color: #fff;
@@ -46,7 +55,7 @@ export const ArrowButton = styled.button`
   border: none;
   cursor: pointer;
   display: flex;
-  margin-right: 10px;
+  margin: 0;
 
   @media (max-width: 900px) {
     gap: 1.5rem;

@@ -1,3 +1,5 @@
+import { ScrollSlice } from "../WhyWaveHome/ScrollSlice";
+
 export const Referenc = () => {
-  return <p>Referenc</p>;
+  return <ScrollSlice />;
 };
