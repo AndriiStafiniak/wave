@@ -24,7 +24,7 @@ export const Cyber = () => {
             </span>
             <span>
               Let Our Experts Guide You to
-              <ExtraTitleContent>Success</ExtraTitleContent>
+              <ExtraTitleContent> Success</ExtraTitleContent>
             </span>
           </div>
         }

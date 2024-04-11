@@ -11,6 +11,7 @@ import {
   SubFooter,
   Text,
 } from "./styled";
+import { LogoLink } from "../Header/styled";
 const imagePath = require("../../images/Logo.png");
 
 export const Footer = () => {
@@ -36,7 +37,9 @@ export const Footer = () => {
         <Text>
           © 2023 WAVE . All Rights Reserved. Terms & Conditions. Privacy Policy.
         </Text>
-        <SocialItem />
+        <LogoLink target="_blank" to="https://www.facebook.com">
+          <SocialItem />
+        </LogoLink>
       </SubFooter>
     </>
   );

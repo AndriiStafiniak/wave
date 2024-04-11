@@ -45,6 +45,10 @@ export const Button = styled.button`
   font-size: 0.9375rem; /* 15px */
   color: #fff;
   max-width: 13.5rem; /* 216px */
+  transition: 0.2s;
+  &:hover {
+    filter: brightness(120%);
+  }
 
   @media (max-width: 1300px) {
     font-size: 0.875rem;

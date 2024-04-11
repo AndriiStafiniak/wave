@@ -4,7 +4,7 @@ export const WrapperStyled = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 4.375rem; /* 70px */
-  margin-top: 9.375rem; /* 150px */
+  margin-top: 20rem; /* 150px */
 
   @media (max-width: 1300px) {
     grid-template-columns: 1fr;

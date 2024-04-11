@@ -1,3 +1,4 @@
+import { toContact } from "../../routs";
 import {
   Button,
   Content,
@@ -13,7 +14,7 @@ export const Section = ({ title, description, buttonText, imageUrl }) => {
       <Content>
         <Title>{title}</Title>
         <Description>{description}</Description>
-        <Button>{buttonText}</Button>
+        <Button to={toContact()}>{buttonText}</Button>
       </Content>
       <ImageContainer>
         <img src={imageUrl} alt="Section visual" />

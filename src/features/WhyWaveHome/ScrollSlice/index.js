@@ -11,6 +11,7 @@ import {
 import { Button } from "../styled";
 import { useState } from "react";
 import { ReactComponent as IconMain } from "../../../images/icons/sliderMain.svg";
+import { toBusines } from "../../../routs";
 
 export const ScrollSlice = ({ slices }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,7 +30,7 @@ export const ScrollSlice = ({ slices }) => {
   return (
     <WrapperSection>
       <TitleSection>Why choose us</TitleSection>
-      <Button onClick={goToPrevious}>&lt;</Button>
+      <ButtonNav onClick={goToPrevious}>&lt;</ButtonNav>
       <SliderContainer>
         {slices.map((slide, index) => (
           <Slide
@@ -44,8 +45,8 @@ export const ScrollSlice = ({ slices }) => {
           </Slide>
         ))}
       </SliderContainer>
-      <Button onClick={goToNext}>&gt;</Button>
-      <Button>View Our Services</Button>
+      <ButtonNav onClick={goToNext}>&gt;</ButtonNav>
+      <Button to={toBusines()}>View Our Services</Button>
     </WrapperSection>
   );
 };

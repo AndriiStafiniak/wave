@@ -7,6 +7,7 @@ import {
   ExtraTitleContent,
   ImageWrapper,
   Img,
+  NavLinkPrimButton,
   SecondButton,
   SectionStyle,
   Skills,
@@ -21,6 +22,7 @@ import { ScrollSlice } from "./ScrollSlice";
 import { SectionInfo } from "./SectionInfo";
 import { KnowUsSection } from "./KnowUsSection";
 import { LastSection } from "./LastSection";
+import { toContact, toIt } from "../../routs";
 const pathImg = require("../../images/Rectangle1.png");
 
 export const WhyWaveHome = () => {
@@ -55,8 +57,8 @@ export const WhyWaveHome = () => {
             your brand, no matter what challenges or needs arise.
           </Description>
           <ButtonsContainer>
-            <Button>Contact Us</Button>
-            <SecondButton>Our Services</SecondButton>
+            <Button to={toContact()}>Contact Us</Button>
+            <SecondButton to={toIt()}>Our Services</SecondButton>
           </ButtonsContainer>
         </Content>
         <ImageWrapper>

@@ -21,7 +21,12 @@ export const HeaderLogo = styled.img`
     margin: 1rem;
   }
 `;
-
+export const LogoLink = styled(NavLink)`
+  text-decoration: none;
+  &:hover {
+    opacity: 0.5;
+  }
+`;
 export const MenuLink = styled(NavLink)`
   text-decoration: none;
   color: ${({ theme }) => theme.colors.header.navLinkColor};
@@ -31,6 +36,19 @@ export const MenuLink = styled(NavLink)`
   line-height: 160%;
   letter-spacing: -0.01875rem; /* -0.3px */
   text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  background-color: ${(props) => (props.isActive ? "#00BCD4" : "transparent")};
+  color: ${(props) => (props.isActive ? "#ffffff" : "#000000")};
+  &:hover {
+    background-color: #61dcdf;
+  }
+  &.active {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    clip-path: polygon(8% 18%, 85% 31%, 115% 71%, 0% 83%);
+    transition: background-color 0.3s ease;
+  }
 
   @media (max-width: 900px) {
     font-size: 1.5rem;
@@ -103,6 +121,10 @@ export const BurgerMenuButton = styled.button`
   top: 50px;
   right: 30px;
   display: none;
+  transition: 0.2s;
+  &:hover {
+    filter: brightness(120%);
+  }
   @media (max-width: 900px) {
     display: block;
     cursor: pointer;

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const SectionStyle = styled.section`
@@ -6,7 +7,6 @@ export const SectionStyle = styled.section`
   align-items: center;
   padding: 3.125rem; /* 50px */
   position: relative;
-  max-width: 120rem; /* 1920px */
   width: 100%;
   margin: 0 auto;
   gap: 6.25rem; /* 100px */
@@ -59,7 +59,7 @@ export const Description = styled.p`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled(NavLink)`
   padding: 0.625rem 1.25rem; /* 10px 20px */
   background-color: #6200ea;
   color: white;
@@ -67,6 +67,12 @@ export const Button = styled.button`
   border-radius: 0.25rem; /* 4px */
   cursor: pointer;
   max-width: 9.6875rem; /* 155px */
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+  &:hover {
+    filter: brightness(120%);
+  }
 
   @media (max-width: 900px) {
     max-width: 100%;

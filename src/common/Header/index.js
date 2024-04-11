@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { toContact, toReferenc, toWhyWaveHome } from "../../routs";
+import { useLocation } from "react-router-dom";
 import { SubMenu } from "../SubMenu";
 import {
   HeaderContainer,
@@ -8,6 +9,7 @@ import {
   BurgerMenuButton,
   BurgerIcon,
   NavContainer,
+  LogoLink,
 } from "./styled";
 
 export const Header = () => {
@@ -15,7 +17,7 @@ export const Header = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
 
   const closeMenu = () => {
-    setTimeout(setIsOpen(false), 100);
+    setTimeout(() => setIsOpen(false), 100);
   };
 
   useEffect(() => {
@@ -31,7 +33,10 @@ export const Header = () => {
 
   return (
     <HeaderContainer>
-      <HeaderLogo src={imagePath} alt="Logo"></HeaderLogo>
+      <LogoLink to={toWhyWaveHome()}>
+        {" "}
+        <HeaderLogo src={imagePath} alt="Logo"></HeaderLogo>
+      </LogoLink>
 
       <BurgerMenuButton onClick={() => setIsOpen(!isOpen)}>
         <BurgerIcon isOpen={isOpen} />

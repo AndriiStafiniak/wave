@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const AllContent = styled.main``;
@@ -77,7 +78,7 @@ export const Description = styled.p`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled(NavLink)`
   padding: 0.625rem 1.25rem; /* 10px 20px */
   background-color: #6200ea;
   color: white;
@@ -85,9 +86,15 @@ export const Button = styled.button`
   border-radius: 0.25rem; /* 4px */
   cursor: pointer;
   max-width: 9.6875rem; /* 155px */
+  text-decoration: none;
+  text-align: center;
+  transition: 0.2s;
+  &:hover {
+    filter: brightness(120%);
+  }
 `;
 
-export const SecondButton = styled.button`
+export const SecondButton = styled(NavLink)`
   padding: 0.625rem 1.25rem;
   background-color: #eee;
   color: #212121;
@@ -95,6 +102,12 @@ export const SecondButton = styled.button`
   border-radius: 0.25rem;
   cursor: pointer;
   max-width: 9.6875rem;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.2s;
+  &:hover {
+    filter: brightness(120%);
+  }
 `;
 
 export const Img = styled.img`

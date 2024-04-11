@@ -59,6 +59,10 @@ export const ButtonNav = styled.button`
   width: 1.875rem; /* 30px */
   background-color: blue;
   color: white;
+  transition: 0.2s;
+  &:hover {
+    filter: brightness(120%);
+  }
 
   @media (max-width: 1300px) {
     width: 1.5rem;

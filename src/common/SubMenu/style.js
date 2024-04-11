@@ -57,6 +57,10 @@ export const ArrowButton = styled.button`
   cursor: pointer;
   display: flex;
   margin: 0;
+  transition: 0.2s;
+  &:hover {
+    filter: brightness(120%);
+  }
 
   @media (max-width: 900px) {
     gap: 1.2rem;
