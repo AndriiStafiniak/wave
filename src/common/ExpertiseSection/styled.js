@@ -32,8 +32,9 @@ export const Title = styled.h2`
 export const ContentTitle = styled.h3`
   font-size: 2.5rem; /* 40px */
 
-  @media (max-width: 1300px) {
+  @media (max-width: 900px) {
     font-size: 2rem;
+    text-align: center;
   }
 `;
 
@@ -58,6 +59,7 @@ export const Description = styled.p`
   text-align: center;
 
   @media (max-width: 1300px) {
+    text-align: center;
     width: 80%;
   }
 `;

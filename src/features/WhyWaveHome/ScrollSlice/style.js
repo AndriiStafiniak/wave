@@ -10,9 +10,9 @@ export const TitleSection = styled.h3`
   line-height: 7rem; /* 112px */
   letter-spacing: -0.125rem; /* -2px */
 
-  @media (max-width: 1300px) {
-    font-size: 2.5rem;
-    line-height: 4.5rem;
+  @media (max-width: 900px) {
+    font-size: 2rem;
+    text-align: center;
   }
 `;
 

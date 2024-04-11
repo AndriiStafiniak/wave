@@ -34,6 +34,7 @@ export const DescriptionStyled = styled.div`
 
   @media (max-width: 1300px) {
     width: 80%;
+    text-align: center;
   }
 `;
 

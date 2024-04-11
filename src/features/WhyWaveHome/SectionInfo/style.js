@@ -10,9 +10,9 @@ export const MainTitle = styled.h2`
   line-height: 7.25rem; /* 116px */
   letter-spacing: -0.125rem; /* -2px */
 
-  @media (max-width: 1300px) {
-    font-size: 2rem; 
-    line-height: 2.5rem; /
+  @media (max-width: 900px) {
+    font-size: 2rem;
+    text-align: center;
   }
 `;
 

@@ -47,6 +47,10 @@ export const Title = styled.h2`
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  @media (max-width: 900px) {
+    font-size: 2rem;
+    text-align: center;
+  }
 
   @media (max-width: 1300px) {
     font-size: 2rem;
@@ -69,6 +73,7 @@ export const Description = styled.p`
   @media (max-width: 1350px) {
     font-size: 1rem;
     width: 80%;
+    text-align: center;
   }
 `;
 
@@ -124,6 +129,10 @@ export const ExtraTitleContent = styled.span`
   font-weight: 700;
   line-height: 1.75rem; /* 28px */
   letter-spacing: -0.01875rem; /* -0.3px */
+  @media (max-width: 900px) {
+    font-size: 2rem;
+    text-align: center;
+  }
 `;
 
 export const SecondSection = styled.section`
@@ -158,8 +167,9 @@ export const TitleSpecial = styled.h3`
   line-height: 127%;
   letter-spacing: -0.0625rem; /* -1px */
 
-  @media (max-width: 1300px) {
-    font-size: 1.75rem;
+  @media (max-width: 900px) {
+    font-size: 2rem;
+    text-align: center;
   }
 `;
 

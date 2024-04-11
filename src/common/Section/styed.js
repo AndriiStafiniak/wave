@@ -40,8 +40,9 @@ export const Title = styled.h2`
   line-height: 108%;
   letter-spacing: -0.125rem; /* -2px */
 
-  @media (max-width: 1300px) {
-    font-size: 3rem;
+  @media (max-width: 900px) {
+    font-size: 2rem;
+    text-align: center;
   }
 `;
 
@@ -53,6 +54,9 @@ export const Description = styled.p`
   font-weight: 400;
   line-height: 155%;
   letter-spacing: -0.01875rem; /* -0.3px */
+  @media (max-width: 1300px) {
+    text-align: center;
+  }
 `;
 
 export const Button = styled.button`

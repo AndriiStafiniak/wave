@@ -45,6 +45,7 @@ export const TitleContetn = styled.h3`
 
   @media (max-width: 900px) {
     font-size: 2rem;
+    text-align: center;
   }
 `;
 
@@ -59,6 +60,7 @@ export const DesriptionContntent = styled.h3`
 
   @media (max-width: 1200px) {
     font-size: 1rem;
+    text-align: center;
   }
 `;
 

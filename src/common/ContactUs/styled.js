@@ -63,8 +63,9 @@ export const FormTitle = styled.h2`
   text-align: center;
   letter-spacing: -0.125rem;
 
-  @media (max-width: 1300px) {
-    font-size: 2.5rem;
+  @media (max-width: 900px) {
+    font-size: 2rem;
+    text-align: center;
   }
 `;
 
@@ -78,5 +79,6 @@ export const FormSubtitle = styled.p`
   @media (max-width: 1300px) {
     font-size: 1rem;
     margin-bottom: 2rem;
+    text-align: center;
   }
 `;

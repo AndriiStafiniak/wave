@@ -41,6 +41,9 @@ export const Description = styled.p`
   font-weight: 400;
   line-height: 155.5%;
   letter-spacing: -0.01875rem; /* -0.3px */
+  @media (max-width: 900px) {
+    text-align: center;
+  }
 `;
 
 export const Container = styled.div`
@@ -95,5 +98,6 @@ export const ContentTitle = styled.h3`
 
   @media (max-width: 900px) {
     font-size: 2rem;
+    text-align: center;
   }
 `;
