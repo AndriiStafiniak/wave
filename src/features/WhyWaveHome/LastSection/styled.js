@@ -18,7 +18,7 @@ export const NavLinks = styled(NavLink)`
   width: 100%;
   margin: 5.5rem; /* 88px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     font-size: 2rem;
     margin: 2rem;
   }
@@ -29,7 +29,7 @@ export const ContainerLastSection = styled.div`
   background-color: #f8fafc;
   padding: 4.375rem; /* 70px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     padding: 2rem;
   }
 `;
@@ -40,7 +40,7 @@ export const ContentLas = styled.div`
   justify-content: space-around;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     flex-direction: column;
   }
 `;

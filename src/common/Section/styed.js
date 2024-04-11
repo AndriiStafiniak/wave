@@ -12,7 +12,7 @@ export const SectionStyle = styled.section`
   gap: 6.25rem; /* 100px */
   background-color: ${({ theme }) => theme.colors.header.background};
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     flex-direction: column;
     padding: 2rem;
     gap: 2rem;
@@ -25,7 +25,7 @@ export const Content = styled.div`
   gap: 2.5rem; /* 40px */
   max-width: 40%;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     max-width: 90%;
     gap: 1.5rem;
   }
@@ -40,7 +40,7 @@ export const Title = styled.h2`
   line-height: 108%;
   letter-spacing: -0.125rem; /* -2px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     font-size: 3rem;
   }
 `;
@@ -64,7 +64,7 @@ export const Button = styled.button`
   cursor: pointer;
   max-width: 9.6875rem; /* 155px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     max-width: 100%;
   }
 `;
@@ -77,7 +77,7 @@ export const ImageContainer = styled.div`
     height: auto;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     max-width: 90%;
   }
 `;

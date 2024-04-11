@@ -8,7 +8,7 @@ export const FormContainer = styled.div`
   flex-direction: column;
   gap: 1.875rem; /* 30px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     padding: 1rem;
   }
 `;
@@ -46,7 +46,7 @@ export const Button = styled.button`
   color: #fff;
   max-width: 13.5rem; /* 216px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     font-size: 0.875rem;
     padding: 0.5rem 1rem;
   }
@@ -63,7 +63,7 @@ export const FormTitle = styled.h2`
   text-align: center;
   letter-spacing: -0.125rem;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     font-size: 2.5rem;
   }
 `;
@@ -75,7 +75,7 @@ export const FormSubtitle = styled.p`
   text-align: center;
   color: #374168;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     font-size: 1rem;
     margin-bottom: 2rem;
   }

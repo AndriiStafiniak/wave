@@ -27,7 +27,7 @@ export const Content = styled.div`
   max-width: 40%;
   margin-left: 150px;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     align-items: center;
     gap: 1.5rem;
     margin-left: 0;
@@ -48,7 +48,7 @@ export const Title = styled.h2`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
@@ -92,7 +92,7 @@ export const Img = styled.img`
   width: 35.625rem; /* 570px */
   height: 33.375rem; /* 534px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     width: 80%;
     height: auto;
   }
@@ -106,7 +106,7 @@ export const ImageWrapper = styled.div`
   align-items: flex-end;
   justify-content: flex-end;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     width: 80%;
     height: auto;
   }
@@ -136,7 +136,7 @@ export const SecondSection = styled.section`
   background-color: #f5faff;
   height: 80vh;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     flex-direction: column;
     padding: 2rem;
     gap: 2rem;
@@ -154,7 +154,7 @@ export const TitleSpecial = styled.h3`
   line-height: 127%;
   letter-spacing: -0.0625rem; /* -1px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     font-size: 1.75rem;
   }
 `;
@@ -194,7 +194,7 @@ export const ButtonsContainer = styled.div`
   display: flex;
   gap: 1.25rem; /* 20px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     flex-direction: column;
   }
 `;

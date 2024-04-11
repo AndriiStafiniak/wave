@@ -14,6 +14,10 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
 
+  const closeMenu = () => {
+    setTimeout(setIsOpen(false), 100);
+  };
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 900);
@@ -35,10 +39,16 @@ export const Header = () => {
 
       {(isMobile && isOpen) || !isMobile ? (
         <NavContainer isOpen={isOpen}>
-          <MenuLink to={toWhyWaveHome()}>Why Wave Europe</MenuLink>
-          <SubMenu />
-          <MenuLink to={toReferenc()}>Referense</MenuLink>
-          <MenuLink to={toContact()}>Contact</MenuLink>
+          <MenuLink to={toWhyWaveHome()} onClick={closeMenu}>
+            Why Wave Europe
+          </MenuLink>
+          <SubMenu onItemClick={closeMenu} onClick={closeMenu} />
+          <MenuLink to={toReferenc()} onClick={closeMenu}>
+            Referense
+          </MenuLink>
+          <MenuLink to={toContact()} onClick={closeMenu}>
+            Contact
+          </MenuLink>
         </NavContainer>
       ) : null}
     </HeaderContainer>

@@ -16,7 +16,7 @@ import {
   toSoft,
   toTeam,
 } from "../../routs";
-export const SubMenu = () => {
+export const SubMenu = ({ onItemClick }) => {
   const [showSubMenu, setShowSubMenu] = useState(false);
   useEffect(() => {
     if (showSubMenu) {
@@ -49,12 +49,24 @@ export const SubMenu = () => {
       </ArrowButton>
       {showSubMenu && (
         <SubNavContainer>
-          <SubMenuLink to={toOutSours()}>Outsourcing</SubMenuLink>
-          <SubMenuLink to={toBusines()}>Business Consulting</SubMenuLink>
-          <SubMenuLink to={toIt()}>IT Recruitmen</SubMenuLink>
-          <SubMenuLink to={toSoft()}>Software Development</SubMenuLink>
-          <SubMenuLink to={toCyber()}>Cyber Security</SubMenuLink>
-          <SubMenuLink to={toTeam()}>Team Setting IT</SubMenuLink>
+          <SubMenuLink onClick={onItemClick} to={toOutSours()}>
+            Outsourcing
+          </SubMenuLink>
+          <SubMenuLink onClick={onItemClick} to={toBusines()}>
+            Business Consulting
+          </SubMenuLink>
+          <SubMenuLink onClick={onItemClick} to={toIt()}>
+            IT Recruitmen
+          </SubMenuLink>
+          <SubMenuLink onClick={onItemClick} to={toSoft()}>
+            Software Development
+          </SubMenuLink>
+          <SubMenuLink onClick={onItemClick} to={toCyber()}>
+            Cyber Security
+          </SubMenuLink>
+          <SubMenuLink onClick={onItemClick} to={toTeam()}>
+            Team Setting IT
+          </SubMenuLink>
         </SubNavContainer>
       )}
     </SubMenuContainerMain>

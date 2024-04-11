@@ -10,7 +10,7 @@ export const TitleSection = styled.h3`
   line-height: 7rem; /* 112px */
   letter-spacing: -0.125rem; /* -2px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     font-size: 2.5rem;
     line-height: 4.5rem;
   }
@@ -23,7 +23,7 @@ export const WrapperSection = styled.div`
   gap: 3.125rem; /* 50px */
   margin: 6.25rem; /* 100px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     margin: 4rem 1rem;
     gap: 2rem;
   }
@@ -37,7 +37,7 @@ export const SliderContainer = styled.div`
   background: #fff;
   box-shadow: 0px 1.25rem 3.125rem 0px rgba(79, 119, 255, 0.2);
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     border-radius: 0.625rem;
   }
 `;
@@ -50,7 +50,7 @@ export const Slide = styled.div`
 export const SlideContent = styled.div`
   margin: 1.875rem; /* 30px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     margin: 1rem;
   }
 `;
@@ -60,7 +60,7 @@ export const ButtonNav = styled.button`
   background-color: blue;
   color: white;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     width: 1.5rem;
   }
 `;

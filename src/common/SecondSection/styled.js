@@ -11,7 +11,7 @@ export const SectionContainer = styled.section`
   margin: 0 auto;
   gap: 6.25rem;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     flex-direction: column;
     padding: 2rem;
     gap: 2rem;
@@ -26,7 +26,7 @@ export const ImageWrapper = styled.div`
   align-items: flex-end;
   justify-content: flex-end;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     width: 80%;
     height: auto;
   }
@@ -38,7 +38,7 @@ export const ContentWrapper = styled.div`
   flex-direction: column;
   gap: 1.25rem; /* 20px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     width: 80%;
   }
 `;
@@ -52,7 +52,7 @@ export const Title = styled.h2`
   line-height: 108%;
   letter-spacing: -0.125rem; /* -2px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     font-size: 3rem;
   }
 `;
@@ -86,7 +86,7 @@ export const Img = styled.img`
   width: 35.625rem; /* 570px */
   height: 33.375rem; /* 534px */
 
-  @media (max-width: 900px) {
+  @media (max-width: 1300px) {
     width: 80%;
     height: auto;
   }

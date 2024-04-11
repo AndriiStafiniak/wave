@@ -44,7 +44,7 @@ export const TitleContetn = styled.h3`
   letter-spacing: -0.125rem; /* -2px */
 
   @media (max-width: 900px) {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 `;
 
