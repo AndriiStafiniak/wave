@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   max-width: 120rem; /* 1920px */
   padding-top: 11rem; /* 176px */
-  margin: 0 auto;
+  margin: 150px auto;
   display: flex;
   min-height: 34.6875rem; /* 555px */
   justify-content: space-around;
@@ -13,6 +13,7 @@ export const Container = styled.div`
     padding-top: 5rem;
     align-items: center;
     gap: 2rem;
+    margin: 50px auto;
   }
 `;
 
