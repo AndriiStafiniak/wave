@@ -193,6 +193,7 @@ export const Skills = styled.div`
     row-gap: 1rem;
     column-gap: 1rem;
     margin-bottom: 1rem;
+    justify-items: center;
   }
 `;
 

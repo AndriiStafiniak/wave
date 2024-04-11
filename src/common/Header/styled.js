@@ -33,8 +33,9 @@ export const MenuLink = styled(NavLink)`
   text-transform: uppercase;
 
   @media (max-width: 900px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #b7b7b7;
+    margin-top: 50px;
   }
 `;
 
@@ -93,7 +94,7 @@ export const NavContainer = styled.nav`
     transform: ${({ isOpen }) =>
       isOpen ? "translateX(0)" : "translateX(-100%)"};
     transition: transform 0.3s ease-in-out;
-    padding: 10px;
+    padding: 30px;
   }
 `;
 

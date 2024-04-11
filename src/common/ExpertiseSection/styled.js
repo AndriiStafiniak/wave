@@ -80,5 +80,6 @@ export const NumberBall = styled.div`
   @media (max-width: 1300px) {
     width: 1.5rem;
     height: 1.5rem;
+    font-size: 0.8rem;
   }
 `;

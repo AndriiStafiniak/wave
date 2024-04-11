@@ -21,17 +21,17 @@ export const SectionInfo = () => {
       <MainTitle>Our technology</MainTitle>
       <ListInfo>
         <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
+        <NumberBall>✔ </NumberBall> <ExtraListContent>Java</ExtraListContent>
+        <NumberBall>✔ </NumberBall> <ExtraListContent>Css</ExtraListContent>
+        <NumberBall>✔ </NumberBall> <ExtraListContent>Html</ExtraListContent>
         <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
+        <NumberBall>✔ </NumberBall> <ExtraListContent>Java</ExtraListContent>
+        <NumberBall>✔ </NumberBall> <ExtraListContent>Css</ExtraListContent>
+        <NumberBall>✔ </NumberBall> <ExtraListContent>Html</ExtraListContent>
         <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
-        <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
-        <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
-        <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
-        <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
-        <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
-        <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
-        <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
-        <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
-        <NumberBall>✔ </NumberBall> <ExtraListContent>C++</ExtraListContent>
+        <NumberBall>✔ </NumberBall> <ExtraListContent>Java</ExtraListContent>
+        <NumberBall>✔ </NumberBall> <ExtraListContent>Css</ExtraListContent>
+        <NumberBall>✔ </NumberBall> <ExtraListContent>Html</ExtraListContent>
       </ListInfo>
       <WrapperMain>
         <ImageContainer>

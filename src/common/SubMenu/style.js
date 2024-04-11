@@ -6,11 +6,12 @@ export const SubMenuContainerMain = styled.div`
   position: relative;
 `;
 export const ArrowIconStyle = styled(ArrowIcon)`
-  margin-left: 10px;
+  margin-left: 8px;
   @media (max-width: 900px) {
     color: #fff;
     width: 30px;
     height: 30px;
+    fill: crimson;
   }
 `;
 export const SubMenuLink = styled(NavLink)`
@@ -58,10 +59,9 @@ export const ArrowButton = styled.button`
   margin: 0;
 
   @media (max-width: 900px) {
-    gap: 1.5rem;
+    gap: 1.2rem;
     color: white;
-    font-size: 2rem;
-    font-size: 25px;
+    font-size: 1.2rem;
   }
 `;
 
@@ -75,6 +75,7 @@ export const SubMenuTitle = styled.div`
   @media (max-width: 900px) {
     gap: 1.5rem;
     color: #b7b7b7;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    margin: 0;
   }
 `;

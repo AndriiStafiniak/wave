@@ -12,6 +12,7 @@ export const WrapperStyled = styled.section`
 
   @media (max-width: 1300px) {
     margin: 4rem auto;
+    gap: 30px;
   }
 `;
 
