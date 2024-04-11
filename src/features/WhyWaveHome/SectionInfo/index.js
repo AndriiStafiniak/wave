@@ -54,7 +54,7 @@ export const SectionInfo = () => {
             allows us to deliver custom-built products that perfectly fit your
             requirements.
           </Description>
-          <Button>Call now →</Button>
+          <Button to="tel: 111111111">Call now →</Button>
         </Content>
       </WrapperMain>
     </SectionStyle>
