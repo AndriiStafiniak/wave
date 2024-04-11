@@ -23,10 +23,7 @@ export const TeamIt = () => {
             <span>
               <ExtraText>IT Recruitment – Wave</ExtraText>
             </span>
-            <span>
-              Let Our Experts Guide You to
-              <ExtraTitleContent> Success</ExtraTitleContent>
-            </span>
+            <span>Wave Builds Your Dream Team</span>
           </div>
         }
         description="Running a successful business requires more than just hard work. 

@@ -23,8 +23,8 @@ export const Cyber = () => {
               <ExtraText>IT Recruitment – Wave</ExtraText>
             </span>
             <span>
-              Let Our Experts Guide You to
-              <ExtraTitleContent> Success</ExtraTitleContent>
+              Shield Your Digital Assets
+              <ExtraTitleContent> Assets</ExtraTitleContent>
             </span>
           </div>
         }

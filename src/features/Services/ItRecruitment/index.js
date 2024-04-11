@@ -23,8 +23,8 @@ export const It = () => {
               <ExtraText>IT Recruitment – Wave</ExtraText>
             </span>
             <span>
-              Let Our Experts Guide You to
-              <ExtraTitleContent> Success</ExtraTitleContent>
+              Wave Talent
+              <ExtraTitleContent> Hunting</ExtraTitleContent>
             </span>
           </div>
         }

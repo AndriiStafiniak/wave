@@ -23,10 +23,7 @@ export const SoftWare = () => {
             <span>
               <ExtraText>IT Recruitment – Wave</ExtraText>
             </span>
-            <span>
-              Let Our Experts Guide You to
-              <ExtraTitleContent> Success</ExtraTitleContent>
-            </span>
+            <span>Build Wave Solutions</span>
           </div>
         }
         description="Running a successful business requires more than just hard work. 

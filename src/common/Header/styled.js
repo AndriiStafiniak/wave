@@ -117,7 +117,7 @@ export const NavContainer = styled.nav`
 `;
 
 export const BurgerMenuButton = styled.button`
-  position: fixed;
+  position: absolute;
   top: 50px;
   right: 30px;
   display: none;
