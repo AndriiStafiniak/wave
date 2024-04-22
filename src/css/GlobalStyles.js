@@ -20,7 +20,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
    font-family: Outfit;
    overflow: auto;
-
+   max-width: 2000px;
   }
   body.no-scroll {
     overflow: hidden !important;
