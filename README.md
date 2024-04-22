@@ -22,7 +22,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Immutability
 - React.js
 - Styled Components
-- TanStack query
 - React Hooks
 
 # Getting Started with Create React App
